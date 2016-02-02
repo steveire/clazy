@@ -99,6 +99,7 @@ set(SRC_FILES
     checks/ruleofthree.cpp
     checks/temporaryiterator.cpp
     checks/variantsanitizer.cpp
+    checks/writing-to-local.cpp
     checks/writingtotemporary.cpp
     checks/wrong-qglobalstatic.cpp
     checks/virtualcallsfromctor.cpp

@@ -1,0 +1,3 @@
+writing-to-local/main.cpp:99:13: warning: address of stack memory associated with local variable 'a' returned [-Wreturn-stack-address]
+writing-to-local/main.cpp:14:5: warning: Call to local variable is a no-op: [-Wclazy-writing-to-local]
+writing-to-local/main.cpp:23:5: warning: Call to local variable is a no-op: [-Wclazy-writing-to-local]
