@@ -1,0 +1,27 @@
+auto-auto-auto
+
+Finds declarations where auto may safely be used.
+
+For example:
+
+  int i = 0;
+  const int i2 = 0;
+  bool b = false;
+
+  int i3 = i;
+
+  QString s = app.objectName();
+
+is converted to
+
+  auto i = 0;
+  const auto i2 = 0;
+  auto b = false;
+
+  auto i3 = i;
+
+  auto s = app.objectName();
+
+
+FIXITS:
+export CLAZY_FIXIT="fix-auto-auto-auto"
