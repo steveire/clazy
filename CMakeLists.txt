@@ -76,6 +76,7 @@ set(SYMBOL_FILE Lazy.exports)
 set(SRC_FILES
     checkbase.cpp
     checkmanager.cpp
+    checks/auto-auto-auto.cpp
     checks/autounexpectedqstringbuilder.cpp
     checks/assertwithsideeffects.cpp
     checks/container-anti-pattern.cpp
